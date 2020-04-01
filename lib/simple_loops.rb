@@ -19,3 +19,13 @@ def loop_message_n_times(message, num)
     i += 1
   end
 end
+
+def output_array(message, num)
+  arr = []
+  i = 0
+  while i < num
+    arr << message
+    i += 1
+  end
+  arr
+end
