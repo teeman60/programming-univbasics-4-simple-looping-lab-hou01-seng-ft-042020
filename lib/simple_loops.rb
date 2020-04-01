@@ -21,11 +21,11 @@ def loop_message_n_times(message, num)
 end
 
 def output_array(message, num)
-  
+
   i = 0
   while i < num
     message
     i += 1
   end
-  
+
 end
