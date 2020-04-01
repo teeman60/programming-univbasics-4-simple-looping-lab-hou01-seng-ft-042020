@@ -10,3 +10,12 @@ def loop_message_five_times(message)
   #   message
   # end
 end
+
+
+def loop_message_n_times(message, num)
+  i = 0
+  while i < num
+    puts message
+    i += 1
+  end
+end
