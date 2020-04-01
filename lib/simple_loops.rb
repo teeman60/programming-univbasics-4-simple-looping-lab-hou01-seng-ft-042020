@@ -25,7 +25,7 @@ def output_array(message, num)
   i = 0
   while i < message.length
     message[i]
-    
+
     i += 1
   end
 
