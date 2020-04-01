@@ -30,3 +30,13 @@ def output_array(message)
   end
 
 end
+
+def return_string_array(array)
+  arr = []
+  i = 0
+  while i < array.length
+    arr << array[i].to_s
+    i += 1
+  end
+  arr
+end
