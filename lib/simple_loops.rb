@@ -20,7 +20,7 @@ def loop_message_n_times(message, num)
   end
 end
 
-def output_array(message, num)
+def output_array(message)
 
   i = 0
   while i < message.length
